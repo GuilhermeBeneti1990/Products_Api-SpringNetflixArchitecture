@@ -1,7 +1,7 @@
-package com.springnetflix.product.api.exceptions.handler;
+package com.springnetflix.products.api.exceptions.handler;
 
-import com.springnetflix.product.api.exceptions.ExceptionResponse;
-import com.springnetflix.product.api.exceptions.ResourceNotFoundException;
+import com.springnetflix.products.api.exceptions.ExceptionResponse;
+import com.springnetflix.products.api.exceptions.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

@@ -1,4 +1,4 @@
-package com.springnetflix.product.api;
+package com.springnetflix.products.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

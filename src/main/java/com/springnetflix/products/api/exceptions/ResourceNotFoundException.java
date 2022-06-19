@@ -1,4 +1,4 @@
-package com.springnetflix.product.api.exceptions;
+package com.springnetflix.products.api.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

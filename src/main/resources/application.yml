@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: product-api
+    name: products-api
   jpa:
     show-sql: false
     hibernate:
@@ -19,3 +19,15 @@ spring:
     url: jdbc:mysql://localhost:3306/products?allowPublicKeyRetrieval=true&sslMode=DISABLED&useSSL=false&serverTimezone=UTC
     username: root
     password: root
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+
+productsapi:
+  rabbitmq:
+    exchange: products-api.exchange
+    routingkey: products-api.routingkey
+

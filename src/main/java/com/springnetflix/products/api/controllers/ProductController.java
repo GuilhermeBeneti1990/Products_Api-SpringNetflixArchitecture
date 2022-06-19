@@ -1,7 +1,7 @@
-package com.springnetflix.product.api.controllers;
+package com.springnetflix.products.api.controllers;
 
-import com.springnetflix.product.api.data.vo.ProductVO;
-import com.springnetflix.product.api.services.ProductService;
+import com.springnetflix.products.api.data.vo.ProductVO;
+import com.springnetflix.products.api.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

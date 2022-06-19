@@ -1,6 +1,6 @@
-package com.springnetflix.product.api.entities;
+package com.springnetflix.products.api.entities;
 
-import com.springnetflix.product.api.data.vo.ProductVO;
+import com.springnetflix.products.api.data.vo.ProductVO;
 import lombok.*;
 import org.modelmapper.ModelMapper;
 

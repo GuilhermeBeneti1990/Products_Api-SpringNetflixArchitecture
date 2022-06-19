@@ -1,4 +1,4 @@
-package com.springnetflix.product.api.exceptions;
+package com.springnetflix.products.api.exceptions;
 
 import lombok.*;
 

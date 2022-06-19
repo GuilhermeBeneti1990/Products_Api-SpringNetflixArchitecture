@@ -1,8 +1,8 @@
-package com.springnetflix.product.api.data.vo;
+package com.springnetflix.products.api.data.vo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.springnetflix.product.api.entities.Product;
+import com.springnetflix.products.api.entities.Product;
 import lombok.*;
 import org.modelmapper.ModelMapper;
 import org.springframework.hateoas.RepresentationModel;
