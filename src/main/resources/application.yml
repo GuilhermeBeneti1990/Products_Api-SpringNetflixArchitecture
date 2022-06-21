@@ -31,3 +31,8 @@ productsapi:
     exchange: products-api.exchange
     routingkey: products-api.routingkey
 
+security:
+  jwt:
+    token:
+      secret-key: jacksparrow
+
